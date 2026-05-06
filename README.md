@@ -8,7 +8,7 @@ On a fresh VM, logged in as your sudo-capable user (**not** root):
 
 ```bash
 sudo apt-get update && sudo apt-get install -y git
-git clone <this-repo-url> ~/server-setup
+git clone https://github.com/IGuidoo/server-setup.git ~/server-setup
 cd ~/server-setup
 ./install.sh
 ```
